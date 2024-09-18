@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+								initial-scale=1.0"
+    />
+    <title>HTML Table with Rowspan and Colspan</title>
+    <style>
+      h1,
+      h3 {
+        text-align: center;
+        color: rgb(13, 0, 128);
+      }
+
+      table {
+        width: 100%;
+        border: 1px solid #100808;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>Table with Rowspan and Colspan</h3>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Class</th>
+          <th>College</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Kabin</td>
+          <td rowspan="2">Dipesh</td>
+          <td>11</td>
+          <td rowspan="2">Advanced COllege</td>
+        </tr>
+        <tr>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Ramesh</td>
+          <td rowspan="2">Sujan</td>
+          <td>3</td>
+          <td rowspan="2">Namdu School</td>
+        </tr>
+        <tr>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Kaluram</td>
+          <td rowspan="2">Ramchandra</td>
+          <td>5</td>
+          <td rowspan="2">TU</td>
+        </tr>
+        <tr>
+          <td>A</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
