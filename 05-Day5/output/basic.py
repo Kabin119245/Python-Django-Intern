@@ -1,0 +1,5 @@
+print("Hello")
+print("Nepal")
+print(123)
+print(3.145)
+print(False)
