@@ -1,3 +1,4 @@
+# Find the longest word in a given string.
 str = input("Enter a string: ")
 
 words = str.split()
