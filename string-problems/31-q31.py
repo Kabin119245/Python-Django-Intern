@@ -15,4 +15,4 @@ for vowel, count in freq.items():
     if count > 0:
         print(f"'{vowel}': {count}")
 
-
+# print(freq)
